@@ -1,0 +1,37 @@
+.indiatable{
+    height: 680px;
+    overflow: auto;
+   
+    border: 2px dotted black;
+    background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("https://d-maps.com/m/asia/india/inde/inde16.gif");
+    opacity: 0.9;
+    overflow-x: auto;
+    
+}
+
+.indiatable tr{
+    
+    font-family: "calibri";
+    font-size: 15px;
+    font-weight: bold;
+    
+    color: rgb(122, 2, 2);
+}
+
+.indiatable tr td{
+    padding: 30px;
+    
+}
+.indiatable  th{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Calibri';
+    font-size: 14px;
+    
+}
+.indiatable th td{
+    height: 20px;
+    padding:30px;
+    
+}
+

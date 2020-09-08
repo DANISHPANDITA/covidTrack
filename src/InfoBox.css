@@ -1,0 +1,60 @@
+.infobox{
+    flex: 1;
+    cursor: pointer;
+    background-color: #f5f6fa;
+}
+
+.infobox:not(:last-child){
+    margin-right:10px; 
+}
+.infobox--selected{
+    border-top: 10px solid greenyellow;
+} 
+.infobox:hover{
+    background-color: rgb(124, 206, 124);
+    transition: 0.7s;
+}
+.infobox--red{
+    border-color:  red;
+}
+
+
+.infobox--red:hover{
+    background-color: rgb(243, 138, 138);
+    transition:0.7s
+}
+.infobox--grey{
+    border-color: rgb(58, 55, 49);
+}
+.infobox--grey:hover{
+    background-color: rgb(128, 117, 128);
+    transition: 0.7s;
+}
+.infobox--violet:hover{
+    background-color: rgb(175, 13, 175);
+    transition: 0.7s;
+}
+
+.infobox__cases {
+    margin-top: 30px;
+    color: #e71212;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.infobox__cases--green{
+    color: rgb(26, 94, 23)  !important; 
+}
+.infobox__cases--grey{
+    color: rgb(95, 84, 84) !important;
+}
+.infoboxtotal {
+    color: #6c757d;
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+    margin-top: 30px !important;
+}
+.infoboxtitle{
+    font-weight: 700 !important;
+    color: rgb(70, 70, 70) !important;
+}

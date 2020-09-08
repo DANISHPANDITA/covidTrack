@@ -1,0 +1,44 @@
+.table{
+    margin-top:20px;
+    height:400px;
+    overflow:auto;
+    color:rgb(126, 121, 121);
+    overflow-x: scroll;
+    
+}
+.table th{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Calibri';
+    font-size: 14px;
+    width: 250%;
+}
+
+
+.table  tr:nth-of-type(odd){
+background-color: rgb(204, 199, 199);
+}
+.table tr{
+    font-family: 'Calibri';
+    font-size: 14px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ .table td{
+    padding: 10px;
+}
+.table tr{
+    width:250%
+}
+ .table tr{
+  border: 2px dotted rgb(190, 184, 184);
+}
+
+.table tr td{
+    width: 25px;
+}
+
+.table th td{
+    width: 25px;
+    padding: 20px;
+}

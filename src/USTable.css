@@ -1,0 +1,33 @@
+.ustable{
+    height: 680px;
+    overflow: scroll;
+
+    border: 2px dotted black;
+    background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)) ,url("https://www.nicepng.com/png/detail/144-1446534_png-usa-outline-transparent-usa-outline-united-states.png");
+    opacity: 0.9;
+}
+
+.ustable tr{
+    
+    font-family: "calibri";
+    font-size: 15px;
+    font-weight: bold;
+  
+    color: rgb(122, 2, 2);
+}
+
+.ustable tr td{
+    padding: 30px;
+    
+}
+.ustable  th{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Calibri';
+    font-size: 14px;
+    
+}
+.ustable th td{
+    height: 20px;
+    padding:20px;
+}

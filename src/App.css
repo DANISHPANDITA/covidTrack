@@ -1,0 +1,84 @@
+*{
+  margin: 2px;
+}
+body{
+  background-color: #f5f6fa;
+}
+.App{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.Appleft{
+  flex:0.6;
+}
+
+.MuiPaper-root .MuiCard-root{
+  background-color: #f5f6fa;
+}
+.MuiInputBase-root {
+  background-color: white;
+}
+
+.rightcontent{
+  background-color: rgb(243, 239, 239);
+}
+.App_header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.App_header > h1{
+  font-family: "Times New Roman";
+  cursor: pointer;
+  color: rgb(209, 28, 28);
+  font-weight: bold;
+}
+
+.stats{
+  display: flex;
+  justify-content: space-around;
+}
+
+@media  (max-width: 990px) {
+  .stats{
+    flex-direction: column;
+    
+  }
+}
+
+@media  (max-width: 990px) {
+  .App{
+    flex-direction: column;
+  }
+}
+
+
+.Appright {
+  flex:0.4;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.Appright .MuiCardContent-root {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.graph {
+  flex-grow: 1;
+}
+
+.graphtitle{
+  margin-top:15px;
+  margin-bottom: 15px;
+  color:red;
+  font-family: "calibri";
+}
+.graphinfo{
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: "calibri";
+  color: rgb(114, 96, 96);
+}
